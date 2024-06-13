@@ -106,7 +106,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/revanced/revanced-patches")
+            url = uri("https://maven.pkg.github.com/1fexd/revanced-patches-contrib")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
@@ -137,9 +137,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "scm:git:git://github.com/revanced/revanced-patches.git"
-                    developerConnection = "scm:git:git@github.com:revanced/revanced-patches.git"
-                    url = "https://github.com/revanced/revanced-patches"
+                    connection = "scm:git:git://github.com/1fexd/revanced-patches-contrib.git"
+                    developerConnection = "scm:git:git@github.com:1fexd/revanced-patches-contrib.git"
+                    url = "https://github.com/1fexd/revanced-patches-contrib"
                 }
             }
         }
